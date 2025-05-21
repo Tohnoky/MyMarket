@@ -42,9 +42,11 @@ h1 {
 .logo__text-black {
   color: #000;
 }
+
 .breadcrumbs {
   margin-bottom: 2px;
 }
+
 .breadcrumbs__list {
   margin: 0;
   padding: 0;
@@ -63,23 +65,28 @@ h1 {
   text-decoration: none;
   color: #008CF0;
 }
+
 .product-name {
   margin-bottom: 27px;
 }
+
 h2 {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
   margin: 0;
 }
+
 .product-photo__list {
   margin: 0;
   padding: 0;
 }
+
 .product-photo__item {
   display: inline-block;
   margin-right: 4px;
 }
+
 .product-photo__item:last-child {
   margin-right: 0;
 }
