@@ -1,102 +1,36 @@
 body {
-  max-width: 1500px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+}
+
+.wrapper {
+  width: 1500px;
   margin: 0;
   padding: 0 51px;
 }
 
-header {
-  width: 1500;
-  height: 80;
-  top: 1px;
-  gap: 10px;
-  padding-right: 51px;
-  padding-left: 51px;
+* {
+    box-sizing: border-box;
 }
-
-.logo {
+.header{
+  position: relative;
+  top: 7px;
+}
+.logo__icon, .logo__text {
   display: inline-block;
-  width: 1398;
-  height: 80;
 }
-
-.link-logo {
+.logo__link-icon, .logo__link-text {
   text-decoration: none;
 }
-
-.icon-logo {
-  width: 36.5;
-  height: 43;
-  top: 18.5px;
-  left: 51px;
-  display: inline-block;
-
-}
-
-.text-logo {
-  width: 1351.5;
-  height: 80;
-  left: 97.5px;
-  display: inline-block;
-}
-
 h1 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  width: 263;
-  height: 53;
-  top: 18px;
-  left: -3px;
   color: #F36223;
-  display: inline-block;
+  font-size: 44px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 1px;
 }
-
-.market-logo {
-  color: #000000;
-  text-decoration: none;
-}
-
-.breadcrumbs {
-  height: 35px;
-  top: 91px;
-  left: 50px;
-  gap: 4px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-}
-
-.breadcrumbs li:not(:last-child)::after {
-  content: ">";
-  margin-left: 5px;
-}
-
-li {
-  display: inline-block;
-}
-
-.link-breadcrumbs {
-  text-decoration: none;
-  color: #008CF0;
-}
-article {
-height: 59px;
-top: 126px;
-left: 50px;
-gap: 10px;
-padding-bottom: 20px;
-}
-h2 {
-font-family: "Inter", sans-serif;
-font-weight: 700;
-font-size: 32px;
-line-height: 100%;
-letter-spacing: 0%;
-color: #000000;
+.logo__text-black {
+  color: #000;
 }
