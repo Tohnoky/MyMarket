@@ -77,6 +77,10 @@ h2 {
   margin: 0;
 }
 
+.product-photo {
+  margin-bottom: 23px;
+}
+
 .product-photo__list {
   margin: 0;
   padding: 0;
@@ -89,4 +93,102 @@ h2 {
 
 .product-photo__item:last-child {
   margin-right: 0;
+}
+
+.information {
+  width: 880px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.color {
+  margin-bottom: 26px;
+}
+
+.color__name {
+  margin: 0 0 14px 0;
+}
+
+.color__list {
+  margin: 0;
+  padding: 0;
+}
+
+.color__item {
+  display: inline-block;
+  padding: 0;
+  margin: 0 6px 0 0;
+}
+
+.color__btn {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 4px;
+  border-width: 1px ;
+  border-color: #888;
+}
+
+.configuration {
+  margin-bottom: 27px;
+}
+
+.configuration__name {
+  margin: 0 0 15px 0;
+}
+
+.configuration__list {
+  margin: 0;
+  padding: 0;
+}
+
+.configuration__item {
+  display: inline-block;
+  margin: 0 6px 0 0;
+}
+
+.configuration__btn {
+  width: 92px;
+  height: 39px;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  border-color: #888;
+  font-size: 16px;
+  border-width: 1px ;
+}
+
+.specification__text {
+  margin-bottom: 12px;
+}
+
+.specification__name {
+  margin: 0;
+}
+
+.specification__list {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+.specification__item {
+  list-style-image: url(pictures/Marker.png);
+  margin-bottom: 6px;
+}
+
+.specification__paragraph {
+  margin: 0;
+}
+
+.specification__meaning,
+.specification__meaning-link {
+  font-weight: bold;
+}
+
+.specification__meaning-link {
+  text-decoration: none;
+  color: #008CF0;
 }
