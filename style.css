@@ -97,6 +97,7 @@ h2 {
 
 .information {
   width: 880px;
+  display: inline-block;
 }
 
 h3 {
@@ -160,7 +161,9 @@ h3 {
   font-size: 16px;
   border-width: 1px ;
 }
-
+.specification {
+  margin-bottom: 28px;
+}
 .specification__text {
   margin-bottom: 12px;
 }
@@ -177,6 +180,7 @@ h3 {
 .specification__item {
   list-style-image: url(pictures/Marker.png);
   margin-bottom: 6px;
+  padding-left: 5px;
 }
 
 .specification__paragraph {
@@ -191,4 +195,26 @@ h3 {
 .specification__meaning-link {
   text-decoration: none;
   color: #008CF0;
+}
+.description__text {
+  margin-bottom: 12px;
+}
+.description__name {
+  margin: 0;
+}
+.description__paragraph__text {
+  margin: 0 0 14px 0;
+  line-height: 1.20;
+  font-weight: 500;
+}
+.description__paragraph__text-first {
+  width: 382px;
+}
+.iPhone__13 {
+  font-style: italic;
+}
+.aside {
+  width: 420px;
+  display: inline-block;
+  text-align: right;
 }
