@@ -42,6 +42,10 @@ h1 {
 p {
   margin: 0;
 }
+a:hover {
+  color: #F36223;
+}
+
 
 .logo__text-black {
   color: #000;
@@ -138,6 +142,15 @@ h3 {
   border-radius: 4px;
   border-width: 1px;
   border-color: #888;
+  border-style: solid;
+}
+.color__btn:hover {
+  background: #F2F2F2;
+}
+.color__btn:active {
+  border-width: 2px;
+  border-color: #F36223;
+  background: #fff;
 }
 
 .configuration {
@@ -168,8 +181,16 @@ h3 {
   border-color: #888;
   font-size: 16px;
   border-width: 1px;
+  border-style: solid;
 }
-
+.configuration__btn:hover {
+  background: #F2F2F2;
+}
+.configuration__btn:active {
+  border-width: 2px;
+  border-color: #F36223;
+  background: #fff;
+}
 .specification {
   margin-bottom: 28px;
 }
@@ -296,9 +317,13 @@ h3 {
   margin: 0;
   padding: 0;
   border: 0;
+  border-style: solid;
   font-size: 20px;
   letter-spacing: 1px;
   text-align: center;
+}
+.basket__btn:hover {
+  background: #DA4A0C;
 }
 .advertisement {
   font-size: 14px;
