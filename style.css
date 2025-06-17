@@ -3,6 +3,7 @@ body {
   color: #000;
   font-size: 16px;
   line-height: 1.42;
+  margin: 0;
 }
 
 .wrapper {
@@ -367,6 +368,7 @@ h3 {
 
 .rewiews {
   width: 880px;
+  margin-bottom: 60px;
 }
 
 .rewiews__header {
@@ -442,4 +444,42 @@ h3 {
 }
 .rewiews-content {
   margin-left: 30px;
+}
+.footer {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+.footer-container {
+  width: 1400px;
+  height: 111px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.copywrite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.copywrite p {
+  font-size: 14px;
+}
+.copywrite-text {
+  font-weight: 700;
+}
+.copywrite-span {
+  color: #F36223;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+}
+.upper-link {
+  text-decoration: none;
+  color: #008CF0;
+}
+.copywrite-contact {
+  text-decoration: none;
+  color: #008CF0;
 }
