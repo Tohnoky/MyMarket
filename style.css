@@ -12,6 +12,10 @@ body {
   padding: 0 51px;
 }
 
+button {
+  cursor: pointer;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -235,6 +239,10 @@ h3 {
   color: #008CF0;
 }
 
+.description {
+  margin-bottom: 30px;
+}
+
 .description__text {
   margin-bottom: 12px;
 }
@@ -255,6 +263,55 @@ h3 {
 
 .iPhone__13 {
   font-style: italic;
+}
+
+.models {
+  width: 100%;
+  margin-bottom: 51px;
+}
+
+.models-comparison {
+  margin-bottom: 12px;
+}
+
+.models-comparison h3 {
+  margin: 0;
+}
+
+.models-table {
+  height: 156px;
+}
+
+
+thead, tfoot {
+  display: table-row-group;
+}
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 876px;
+  height: 100%;
+}
+
+.table th {
+  border: 1px solid #888;
+}
+
+.table td {
+  border-left: 1px solid #888;
+  border-right: 1px solid #888;
+  text-align: center;
+}
+
+tfoot td {
+  border-bottom: 1px solid #888;
+  text-align: center;
+}
+
+tbody tr:hover,
+tfoot tr:hover {
+  background: #f2f2f2;
+  cursor: pointer;
 }
 
 .aside {
@@ -361,6 +418,10 @@ h3 {
   margin-bottom: 17px;
   line-height: 300px;
 }
+iframe {
+  width: 100%;
+  height: 100%;
+}
 
 .advertisement_item:last-child {
   margin-bottom: 0;
@@ -404,13 +465,16 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
 .rewiews-first {
   margin-bottom: 27px;
 }
+
 .rewiews-second {
   border-top: 1px solid black;
   padding-top: 38px;
 }
+
 .rewiews-first,
 .rewiews-second {
   display: flex;
@@ -421,34 +485,42 @@ h3 {
   height: 140px;
   border-radius: 100px;
 }
+
 .rewiews-content-header {
   margin-bottom: 19px;
 }
+
 .rewiews-content-header-rating {
   display: flex;
 }
+
 .rewiews-content-header p {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 8px;
-  
+
 }
+
 .rewiews-content-body p {
   font-size: 14px;
   margin-bottom: 8px;
   line-height: 1.3;
 }
+
 .rewiews-content-body p span {
-   font-size: 14px;
+  font-size: 14px;
   font-weight: 700;
 }
+
 .rewiews-content {
   margin-left: 30px;
 }
+
 .footer {
   background-color: #f2f2f2;
   width: 100%;
 }
+
 .footer-container {
   width: 1400px;
   height: 111px;
@@ -456,17 +528,21 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
 .copywrite {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .copywrite p {
   font-size: 14px;
 }
+
 .copywrite-text {
   font-weight: 700;
 }
+
 .copywrite-span {
   color: #F36223;
 }
@@ -475,10 +551,12 @@ h3 {
   display: flex;
   align-items: center;
 }
+
 .upper-link {
   text-decoration: none;
   color: #008CF0;
 }
+
 .copywrite-contact {
   text-decoration: none;
   color: #008CF0;
